@@ -1,5 +1,9 @@
 # BrewFinder
-<br>
+
+![2024-04-11 (1)](https://github.com/Nicolex0/brewfinder/assets/156920830/c2d3e1f2-8c50-4b3a-8165-277cebcba241)
+
+
+## Introduction
 BrewFinder is a web application designed to help beer enthusiasts discover and locate their favorite brews based on location. Whether you're a seasoned connoisseur or just starting to explore the world of craft beer, BrewFinder provides a convenient way to find the perfect brew near you.
 
 ## Features
