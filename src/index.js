@@ -11,3 +11,10 @@ async function fetchData(url) {
 
   // Function to display brewery data on the webpage
 function displayBreweries(breweries) {
+    // Clear previous results
+  const resultsContainer = document.getElementById('results');
+  resultsContainer.innerHTML = '';
+
+  if (breweries.length === 0) {
+    resultsContainer.innerHTML = '<p>No results found.</p>';
+} else {
