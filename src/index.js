@@ -8,3 +8,6 @@ async function fetchData(url) {
         console.error('Error fetching data:', error);
     }
   }
+
+  // Function to display brewery data on the webpage
+function displayBreweries(breweries) {
