@@ -17,9 +17,9 @@ To get started with BrewFinder, follow these steps:
 ## Technologies used
 BrewFinder is built using the following technologies:
 
-HTML: Markup language for structuring the website's content.
-CSS: Styling language used to enhance the presentation and layout.
-JavaScript: Programming language for adding interactive features and functionality.
+1. HTML: Markup language for structuring the website's content.
+2. CSS: Styling language used to enhance the presentation and layout.
+3. JavaScript: Programming language for adding interactive features and functionality.
 
 ## contributing
 If you would like to contribute to BrewFinder, please follow these guidelines:
