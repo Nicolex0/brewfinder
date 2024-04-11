@@ -19,9 +19,9 @@ BrewFinder is built using the following technologies:
 
 1. HTML: Markup language for structuring the website's content.
 2. CSS: Styling language used to enhance the presentation and layout.
-3. JavaScript: Programming language for adding interactive features and functionality.
+3. JavaScript: A programming language for adding interactive features and functionality.
 
-## contributing
+## Contributing
 If you would like to contribute to BrewFinder, please follow these guidelines:
 
 1. Fork the repository and create your branch: git checkout -b feature/my-feature.
