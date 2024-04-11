@@ -31,3 +31,9 @@ function displayBreweries(breweries) {
         <p>Phone: ${brewery.phone}</p>
         <p>Website: <a href="${brewery.website_url}" target="_blank">${brewery.website_url}</a></p>
     `;
+
+    // Append the brewery element to the results container
+    resultsContainer.appendChild(breweryElement);
+});
+}
+}
