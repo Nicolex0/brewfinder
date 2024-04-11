@@ -27,6 +27,7 @@ function displayBreweries(breweries) {
         breweryElement.innerHTML = `
         <h3>${brewery.name}</h3>
         <p>Location: ${brewery.city}, ${brewery.state}</p>
+        <p>Country: ${brewery.country}</p>
         <p>Type: ${brewery.brewery_type}</p>
         <p>Phone: ${brewery.phone}</p>
         <p>Website: <a href="${brewery.website_url}" target="_blank">${brewery.website_url}</a></p>
