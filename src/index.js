@@ -18,3 +18,7 @@ function displayBreweries(breweries) {
   if (breweries.length === 0) {
     resultsContainer.innerHTML = '<p>No results found.</p>';
 } else {
+    // Loop through the breweries and create HTML elements to display them
+    breweries.forEach(brewery => {
+        const breweryElement = document.createElement('div');
+        breweryElement.classList.add('brewery');
