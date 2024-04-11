@@ -22,3 +22,12 @@ function displayBreweries(breweries) {
     breweries.forEach(brewery => {
         const breweryElement = document.createElement('div');
         breweryElement.classList.add('brewery');
+
+        // Add brewery information to the element
+        breweryElement.innerHTML = `
+        <h3>${brewery.name}</h3>
+        <p>Location: ${brewery.city}, ${brewery.state}</p>
+        <p>Type: ${brewery.brewery_type}</p>
+        <p>Phone: ${brewery.phone}</p>
+        <p>Website: <a href="${brewery.website_url}" target="_blank">${brewery.website_url}</a></p>
+    `;
