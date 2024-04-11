@@ -28,3 +28,8 @@ body {
 .title {
     margin-left: 20px; /* Add margin to the left */
 }
+
+.search-container {
+    text-align: center; /* Center the search container */
+    margin-top: 20px; /* Add space between the nav bar and search container */
+}
