@@ -54,3 +54,9 @@ document.getElementById('search-form').addEventListener('submit', async function
         document.getElementById('results').innerHTML = '';
     }
   });
+
+  // Event listener for reset button click
+document.getElementById('reset-button').addEventListener('click', function() {
+    document.getElementById('search-input').value = ''; // Clear search input
+    document.getElementById('results').innerHTML = ''; // Clear search results
+  });
