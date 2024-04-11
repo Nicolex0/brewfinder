@@ -57,3 +57,13 @@ body {
     box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Add shadow effect */
     outline: none; /* Remove outline */
 }
+
+/*  CSS for results container */
+.results-container {
+    background-color: #EEEEEE; /* Background color */
+    border: 1px solid #ced4da; /* Border color */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
+    padding: 20px; /* Padding inside the container */
+    margin-top: 20px; /* Add margin from the top */
+}
