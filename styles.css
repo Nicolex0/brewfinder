@@ -1,0 +1,69 @@
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 50px;
+    margin: 50;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #EEEEEE;
+    font-family: 'Serif', Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: #222831; /* Background color of the navbar */
+    color: white; /* Text color of the navbar */
+    padding: 10px 0; /* Padding around the navbar */
+    text-align: center; /* Aligning text in the center */
+}
+
+.title {
+    margin-left: 20px; /* Add margin to the left */
+}
+
+.search-container {
+    text-align: center; /* Center the search container */
+    margin-top: 20px; /* Add space between the nav bar and search container */
+}
+
+.search-form {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.search-input {
+    padding: 10px; /* Add padding to the input */
+    width: 500px; /* Set the width of the input */
+    border: 1px solid #dfe1e5; /* Add border */
+    border-radius: 24px; /* Add rounded corners */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Add shadow effect */
+    outline: none; /* Remove outline */
+}
+
+.search-button {
+    padding: 10px 20px; /* Add padding to the button */
+    background-color: #f8f9fa; /* Button background color */
+    border: none; /* Remove border */
+    border-radius: 24px; /* Add rounded corners */
+    cursor: pointer; /* Change cursor to pointer */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Add shadow effect */
+    outline: none; /* Remove outline */
+}
+
+/*  CSS for results container */
+.results-container {
+    background-color: #EEEEEE; /* Background color */
+    border: 1px solid #ced4da; /* Border color */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
+    padding: 20px; /* Padding inside the container */
+    margin-top: 20px; /* Add margin from the top */
+}
