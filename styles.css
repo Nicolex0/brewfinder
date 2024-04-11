@@ -9,3 +9,22 @@ h1 {
     margin: 50;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #EEEEEE;
+    font-family: 'Serif', Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: #222831; /* Background color of the navbar */
+    color: white; /* Text color of the navbar */
+    padding: 10px 0; /* Padding around the navbar */
+    text-align: center; /* Aligning text in the center */
+}
+
+.title {
+    margin-left: 20px; /* Add margin to the left */
+}
