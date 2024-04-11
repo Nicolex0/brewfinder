@@ -37,3 +37,20 @@ function displayBreweries(breweries) {
 });
 }
 }
+
+// Event listener for search form submission
+document.getElementById('search-form').addEventListener('submit', async function(event) {
+    event.preventDefault(); // Prevent form submission
+  
+    const searchInput = document.getElementById('search-input').value.trim();
+    if (searchInput !== '') {
+        const apiUrl = `https://api.openbrewerydb.org/v1/breweries?by_state=${searchInput}`;
+        
+        // Fetch data based on search input
+        const breweries = await fetchData(apiUrl);
+        displayBreweries(breweries);
+    } else {
+        // If search input is empty, hide the results container
+        document.getElementById('results').innerHTML = '';
+    }
+  });
